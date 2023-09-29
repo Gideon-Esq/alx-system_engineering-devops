@@ -1,0 +1,1 @@
+Tjis command print current working directory
