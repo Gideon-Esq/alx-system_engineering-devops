@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays To infinity and beyond indefinitely.
+#i="To infinity and beyond"
+m=0
+while ((m < 15))
+do
+	echo "To infinity and beyond"
+done
