@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 
+# Display To infinity and beyond indefinately and I am invincible when SIGTERM is sent
 trap "echo 'I am invincible!!!'" SIGTERM
 m=0
 while ((m < 15))
