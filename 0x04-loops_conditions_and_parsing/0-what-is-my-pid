@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Display the process ID of the running script
+echo "The PID of this script is $$"
