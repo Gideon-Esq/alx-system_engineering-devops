@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# A Bash script that uses ssh to connect to your server using the private key.
+
+# Requirements:
+# • Only use ssh single character.
+# • You cannot use -l.
+# • You do not need to handle the case of a private key protected by a passphrase.
+
+IP="54.160.88.241"
+ssh -i ~/.ssh/school ubuntu@"$IP"
