@@ -1,5 +1,5 @@
 #Create a ssh config file for client  
-file.line {'Turn off passwd auth':
+file.line { 'Turn off passwd auth':
   ensure => 'present',
   path => 'etc/ssh/ssh_config',
   line => 'PasswordAuthentication no'
