@@ -1,4 +1,4 @@
-#Create a ssh config file for client  
+# Create a ssh config file for client  
 file.line { 'Turn off passwd auth':
   ensure => 'present',
   path => 'etc/ssh/ssh_config',
@@ -8,5 +8,5 @@ file.line { 'Turn off passwd auth':
 file.line { 'Declare identify file':
   ensure => 'present',
   path => '/etc/ssh/ssh_config',
-  line => '    IdentityFile ~/.ssh/school',
+  line => 'IdentityFile ~/.ssh/school',
 }
